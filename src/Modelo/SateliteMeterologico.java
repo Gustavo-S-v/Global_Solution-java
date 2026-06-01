@@ -19,7 +19,11 @@ public class SateliteMeterologico extends Satelite implements Monitoravel {
 
     @Override
     public void analisarDados() {
-        System.out.println("Satelite: " + getNome() + " medindo volume de chuvas e massas de ar");
+        System.out.println("id: " + getId());
+        System.out.println("Nome: " + getNome());
+        System.out.println("Status: " + getNome() + " medindo volume de chuvas e massas de ar");
+        System.out.println("Altitude: " + getAltitude());
+        System.out.println("Indice  pluviométrico: " + getIndicePluviometrico());
     }
 
     @Override
