@@ -29,7 +29,12 @@ public class SateliteTermico extends Satelite implements Monitoravel {
 
     @Override
     public void analisarDados() {
-        System.out.println("Satelite: " + getNome() + " escaneando radiação infravermelha de calor na superfície");
+        System.out.println("id: " + getId());
+        System.out.println("Nome: " + getNome());
+        System.out.println("Status: " + getNome() + " escaneando radiação infravermelha de calor na superfície");
+        System.out.println("Altitude: " + getAltitude());
+        System.out.println("Temperatura: " + getTemperaturaFoco() + "°C");
+        System.out.println("Hectares escaniados: " + getAreaAfetadaHectares());
     }
 
     @Override
