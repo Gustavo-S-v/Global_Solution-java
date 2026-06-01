@@ -7,7 +7,7 @@ public class SateliteTermico extends Satelite implements Monitoravel {
 
     public SateliteTermico(int id, String nome, double altitude, double temperaturaFoco, double areaAfetadaHectares) {
         super(id, nome, altitude);
-        this.temperaturaFoco = temperaturaFcoo;
+        this.temperaturaFoco = temperaturaFoco;
         this.areaAfetadaHectares = areaAfetadaHectares;
     }
 
