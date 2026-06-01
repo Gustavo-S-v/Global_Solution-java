@@ -11,7 +11,7 @@ public class SateliteTermico extends Satelite implements Monitoravel {
         this.areaAfetadaHectares = areaAfetadaHectares;
     }
 
-    public double getTemperaturaFcoo() {
+    public double getTemperaturaFoco() {
         return temperaturaFoco;
     }
 
