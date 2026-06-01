@@ -15,7 +15,7 @@ public class SateliteTermico extends Satelite implements Monitoravel {
         return temperaturaFoco;
     }
 
-    public void setTemperaturaFcoo(double temperaturaFcoo) {
+    public void setTemperaturaFoco(double temperaturaFcoo) {
         this.temperaturaFoco = temperaturaFcoo;
     }
 
