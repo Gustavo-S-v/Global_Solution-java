@@ -1,6 +1,6 @@
 package Modelo;
 
-public abstract class Satelite {
+public class Satelite {
     private int id;
     private String nome;
     private double altitude;
