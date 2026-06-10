@@ -59,7 +59,7 @@ public class Main {
 
                 if (termico.verificarAlertaCritico()) {
                     System.out.println("Satélite " + termico.getNome()
-                            + " - ALERTA CRÍTICA!");
+                            + " - ALERTA CRÍTICO!");
                 } else {
                     System.out.println("Satélite " + termico.getNome()
                             + " - Situação normal.");
