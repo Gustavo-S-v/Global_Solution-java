@@ -30,4 +30,10 @@ public class SateliteMeterologico extends Satelite implements Monitoravel {
     public boolean verificarAlertaCritico() {
         return this.indicePluviometrico > 100.0;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+            "\nÍndice Pluviométrico: " + indicePluviometrico;aa
+    }
 }
