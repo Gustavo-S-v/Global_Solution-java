@@ -53,7 +53,7 @@ public class Main {
 
                 if (meterologico.verificarAlertaCritico()) {
                     System.out.println("Satélite " + meterologico.getNome()
-                            + " - ALERTA CRÍTICA!");
+                            + " - ALERTA CRÍTICO!");
                 } else {
                     System.out.println("Satélite " + meterologico.getNome()
                             + " - Situação normal.");
