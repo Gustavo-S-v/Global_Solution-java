@@ -41,4 +41,11 @@ public class SateliteTermico extends Satelite implements Monitoravel {
     public boolean verificarAlertaCritico() {
         return this.temperaturaFoco > 50.0;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nTemperatura do Foco: " + temperaturaFoco +
+                "\nÁrea Afetada (hectares): " + areaAfetadaHectares;
+    }
 }
