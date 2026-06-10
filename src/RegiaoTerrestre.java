@@ -23,4 +23,9 @@ public class RegiaoTerrestre {
         return nomeRegiao;
     }
 
+    @Override
+    public String toString() {
+        return "Região: " + regiao +
+                "\nCoordenadas: " + coordenadas;
+    }
 }
