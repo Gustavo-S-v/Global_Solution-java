@@ -39,8 +39,9 @@ public class Main {
             int opcao = Integer.parseInt(sc.nextLine());
 
             if (opcao == 1) {
-                meterologico.analisarDados();
-                break;
+
+                System.out.println("\n=== SATÉLITE METEOROLÓGICO ===");
+                System.out.println(meterologico);
 
             } else if (opcao == 2) {
 
