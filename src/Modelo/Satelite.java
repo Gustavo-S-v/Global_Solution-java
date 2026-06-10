@@ -35,4 +35,11 @@ public class Satelite {
         this.altitude = altitude;
     }
 
+    public String toString() {
+        return "Satelite" +
+                "id= " + id +
+                "\nnome= " + nome  +
+                "\naltitude= " + altitude
+                ;
+    }
 }
