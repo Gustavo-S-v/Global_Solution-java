@@ -67,8 +67,7 @@ public class Main {
 
             } else if (opcao == 4) {
                 System.out.println("\n=== REGIÃO MONITORADA ===");
-                System.out.println("Nome: " + regiao.getNomeRegiao());
-                System.out.println("Coordernadas: " + regiao.getCoordenadas());
+                System.out.println(regiao);
 
             } else if (opcao == 0) {
                 System.out.println("Encerrando sistema...");
