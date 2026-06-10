@@ -43,8 +43,9 @@ public class Main {
                 break;
 
             } else if (opcao == 2) {
-                termico.analisarDados();
-                break;
+
+                System.out.println("\n=== SATÉLITE TÉRMICO ===");
+                System.out.println(termico);
 
             } else if (opcao == 3) {
                 System.out.println("\n=== ALERTAS ===");
